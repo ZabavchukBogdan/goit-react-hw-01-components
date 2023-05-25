@@ -1,25 +1,23 @@
 import styled from 'styled-components';
 
 export const ListFriend = styled.ul`
-  display: flex;
+ display: flex;
   flex-direction: column;
-  gap: 10px;
-
-  width: 300px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 10px;
-
-  list-style: none;
-  background-color: #ffeaea;
-  border: 1px solid black;
-  border-radius: 4px;
+  gap: 20px;
+  padding: 20px;
+  background-color: #fbffb1;
+  border-radius: 20px;
 `;
 
 export const CardFriend = styled.li`
-  padding: 10px;
-
-  background-color: #ffffff;
-  border: 1px solid black;
-  border-radius: 4px;
+ display: flex;
+  align-items: center;
+  width: 400px;
+  gap: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 10px 10px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 `;
